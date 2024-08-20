@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.1/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+   
+</head>
+<body>
+    <!-- <video autoplay muted loop id="background-video">
+        <source src="/images ,video/bg.video." type="video/mp">
+        Your browser does not support the video tag.
+    </video> -->
+
+    <div class="background-image">
+        <img src="/images ,video/bg img.avif" alt="Background Image">
+   
+    </div>
+    <div class="content">
+
+    <h1 class="text-white text-3xl py-4 text-center bg-blue-600">Weather Dashboard</h1>
+    <div class="container">
+        <div class="weather-input">
+            <h3 class="text-center font-bold">Enter a City Name</h3>
+            <input type="text" class="city-input" placeholder="E.g.,New York,London,Tokyo">
+            <button class="search-btn">Search
+            </button>
+            <div class="separator"></div>
+            <button class="location-btn">Use Current Location</button>
+            <select class="city-dropdown" aria-label="Select a city" style="display: none;"></select> <!-- Dropdown menu -->
+
+        </div>
+        
+        <div class="weather-data">
+         <div class="current-weather">
+          <div class="details">
+            <h2> _____ (_____)</h2>
+            <h4>Temperature: ___°C</h4>
+            <h4>wind: ___ M/S</h4>
+            <h4>Humidity: ___%</h4>
+          </div>  
+          
+        </div>
+        <div class="days-forecast">
+            <h2 class="days">5-Days Forecast</h2>
+            <ul class="weather-cards">
+                <li class="card">
+                   <h3>(_____)</h3>
+                   <h4>Temp: __°C</h4>
+                   <h4>wind: __ M/S</h4>
+                   <h4>Humidity: __%</h4>
+                </li>
+                <li class="card">
+                   <h3>(_____)</h3>
+                   <h4>Temp: __°C</h4>
+                   <h4>wind: __ M/S</h4>
+                   <h4>Humidity: __%</h4>
+                 </li>
+                 <li class="card">
+                   <h3>(_____)</h3>
+                   <h4>Temp: __°C</h4>
+                   <h4>wind: __ M/S</h4>
+                   <h4>Humidity: __%</h4>
+                 </li>
+                 <li class="card">
+                   <h3>(_____)</h3>
+                   <h4>Temp: __°C</h4>
+                   <h4>wind: __ M/S</h4>
+                   <h4>Humidity: __%</h4>
+                 </li>
+                 <li class="card">
+                   <h3>(_____)</h3>
+                   <h4>Temp: __°C</h4>
+                   <h4>wind: __ M/S</h4>
+                   <h4>Humidity: __%</h4>
+                 </li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>
